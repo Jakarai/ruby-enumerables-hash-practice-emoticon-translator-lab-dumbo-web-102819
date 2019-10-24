@@ -1,7 +1,7 @@
 # require modules here
-
+  require 'YAML'
 def load_library(file_path)
-  library = YAML.load_file()
+  library = YAML.load_file(file_path)
   
 end
 
